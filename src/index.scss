@@ -1,0 +1,48 @@
+body {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #324343;
+}
+
+a {
+  text-decoration: none;
+  color: #42b4be;
+}
+
+a:hover {
+  color: #b15959;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+
+.paragraph {
+  max-width: 700px;
+  margin: 0 20px;
+}
+
+.selected {
+  color: #324343;
+}
+
+.selected:hover {
+  color: inherit;
+  cursor: default;
+}
+
+@media screen and (max-width: 652px) {
+  h1 {
+    margin: 20px 10px;
+    font-size: 28px;
+    letter-spacing: 0.7px;
+  }
+
+  .paragraph {
+    margin: 0 10px;
+  }
+}
