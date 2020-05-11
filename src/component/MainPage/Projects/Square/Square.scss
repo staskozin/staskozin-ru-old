@@ -68,7 +68,7 @@
 }
 
 // Анимации на десктопах
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   @mixin square-transition {
     transition: all 0.2s ease-in;
   }
@@ -84,6 +84,7 @@
     &__footer {
       z-index: 1;
       opacity: 0;
+      @include square-transition();
     }
 
     &:hover {
