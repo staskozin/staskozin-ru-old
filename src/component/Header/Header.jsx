@@ -10,13 +10,13 @@ export default function Header() {
     <header className="header">
       <div className="logo">
       <NavLink exact={true} to="/" className="logo__link" activeClassName="selected">
-        <img className="img" src="img/stas-krug.png" alt="Аватарка" />
+        <img className="img" src="/img/stas-krug.png" alt="Аватарка" />
         <span className="text" >Станислав Козин</span>
       </NavLink>
       </div>
 
       <div className="links">
-        <NavLink to="/things" activeClassName="selected">Штуки</NavLink>
+        <NavLink exact={true} to="/things" activeClassName="selected">Штуки</NavLink>
         <a href="https://vk.com/staskozin">ВК</a>
         <a href="https://github.com/staskozin">Гитхаб</a>
       </div>
