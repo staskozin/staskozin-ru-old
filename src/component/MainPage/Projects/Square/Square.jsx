@@ -12,7 +12,6 @@ export default function Square(props) {
           link &&
           <a className="square__link" href={link}></a>
         }
-        {/* <h3 className="square__header">{header}</h3> */}
         <ReactFitText compressor={.9}>
           <p className="square__header">{header}</p>
         </ReactFitText>
