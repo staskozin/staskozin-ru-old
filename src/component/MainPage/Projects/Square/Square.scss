@@ -31,7 +31,6 @@
   &__header {
     font-weight: 700;
     margin: 10px 20px;
-    color: #fff;
   }
 
   &__footer {
@@ -67,12 +66,12 @@
   }
 }
 
+@mixin square-transition {
+  transition: all 0.2s ease-in;
+}
+
 // Анимации на десктопах
 @media screen and (min-width: 1025px) {
-  @mixin square-transition {
-    transition: all 0.2s ease-in;
-  }
-
   .square {
     z-index: 0;
     @include square-transition();
@@ -100,6 +99,10 @@
     }
   }
 
+  .square_iphones:hover {
+    background-image: url(/img/squares/iphones-2.jpg);
+  }
+
   @media screen and (max-width: 1200px) {
     // Чтобы крайние квадраты отъезжали от краев экрана
     .square:nth-child(3n + 1):hover {
@@ -123,10 +126,48 @@
   }
 }
 
+// Картинки в квадратах
+@mixin square-background-settings {
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.square_profkoptilnya-constructor {
+  background-image: url(/img/squares/profkoptilnya-constructor.jpg);
+  @include square-background-settings();
+}
+
+.square_stolpodnos-constructor {
+  background-image: url(/img/squares/stolpodnos-constructor.jpg);
+  @include square-background-settings();
+}
+
+.square_iphones {
+  background-image: url(/img/squares/iphones.jpg);
+  @include square-background-settings();
+  background-size: 171%;
+  background-position-y: 21%;
+}
+
+.square_strong-style-logo {
+  background-image: url(/img/squares/strong-style-logo.jpg);
+  @include square-background-settings();
+}
+
+.square_elkichristmas-logo {
+  background-image: url(/img/squares/elkichristmas-logo.jpg);
+  @include square-background-settings();
+}
+
 // Адаптивность
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .square__footer {
     opacity: 1;
+  }
+
+  .square_iphones {
+    background-image: url(/img/squares/iphones-2.jpg);
   }
 }
 
@@ -134,11 +175,4 @@
   .square__footer {
     opacity: 1;
   }
-}
-
-.square:nth-child(2n) {
-  background-color: rgb(231, 50, 50);
-}
-.square:nth-child(2n + 1) {
-  background-color: yellowgreen;
 }

@@ -22,8 +22,7 @@ export default [
     "header": "Конструктор коптилен",
     "text": "Для интернет-магазина «ПрофКоптильня»",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "profkoptilnya-constructor"
   },
@@ -32,8 +31,7 @@ export default [
     "header": "Конструктор столиков",
     "text": "Для интернет-магазина «СтолПоднос»",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "stolpodnos-constructor"
   },
@@ -42,8 +40,7 @@ export default [
     "header": "Strong Style",
     "text": "Интернет-магазин оловянных солдатиков",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "strong-style",
     "anim_images": [
@@ -62,8 +59,7 @@ export default [
     "header": "СтолПоднос",
     "text": "Интернет-магазин столиков для\u00A0завтрака в\u00A0постель",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "stolpodnos"
   },
@@ -72,8 +68,7 @@ export default [
     "header": "ElkiChristmas",
     "text": "Интернет-магазин искусственных ёлок и\u00A0ёлочных игрушек",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "elkichristmas"
   },
@@ -82,8 +77,7 @@ export default [
     "header": "ПрофКоптильня",
     "text": "Интернет-магазин коптилен",
     "tags": [
-      "сайт",
-      "батя"
+      "сайт"
     ],
     "css_class": "profkoptilnya"
   },
@@ -92,19 +86,9 @@ export default [
     "header": "ПрофШампур",
     "text": "Интернет-магазин шампуров",
     "tags": [
-      "сайт",
-      "батя"
-    ],
-    "css_class": "profshampur"
-  },
-  {
-    "link": "https://grad-remont.ru",
-    "header": "Град-ремонт",
-    "text": "Сайт компании",
-    "tags": [
       "сайт"
     ],
-    "css_class": "grad-remont"
+    "css_class": "profshampur"
   },
   {
     "link": "",
