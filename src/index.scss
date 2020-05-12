@@ -21,15 +21,18 @@ body {
 a {
   text-decoration: none;
   color: #42b4be;
+  transition: color 0.33s ease-out;
 }
 
 a:hover {
   color: #b15959;
+  transition: none;
 }
 
 h1 {
   font-size: 64px;
-  letter-spacing: 2px;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
   margin: 20px;
 }
 
@@ -49,7 +52,7 @@ h1 {
 
 @media screen and (max-width: 652px) {
   h1 {
-    margin: 20px 10px;
+    margin: 20px 10px 10px;
     font-size: 28px;
     letter-spacing: 0.7px;
   }
