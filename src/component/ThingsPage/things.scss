@@ -1,0 +1,33 @@
+.things-label {
+  font-size: 32px;
+  letter-spacing: 0.7px;
+  margin: 5px 0 15px;
+}
+
+.things-textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #85807E;
+  padding: 15px;
+  resize: vertical;
+
+  -webkit-appearance: none;
+  border-radius: 0;
+
+  &::placeholder {
+    color: #85807E;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .things-label {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin: 5px 0 8px;
+  }
+
+  .things-textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

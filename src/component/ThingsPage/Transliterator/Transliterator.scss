@@ -1,0 +1,15 @@
+.transliterator {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 652px) {
+  .transliterator {
+    padding: 0 10px;
+    grid-template-columns: unset;
+    grid-template-rows: 1fr 1fr;
+    column-gap: unset;
+  }
+}
