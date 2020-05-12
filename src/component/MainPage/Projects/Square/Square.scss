@@ -31,6 +31,7 @@
   &__header {
     font-weight: 700;
     margin: 10px 20px;
+    line-height: 1.15;
   }
 
   &__footer {
@@ -168,6 +169,18 @@
 
   .square_iphones {
     background-image: url(/img/squares/iphones-2.jpg);
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .square {
+    &__header {
+      margin: 5px 10px;
+    }
+
+    &__footer {
+      padding: 10px;
+    }
   }
 }
 
