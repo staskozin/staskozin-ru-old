@@ -2,7 +2,7 @@ import React from 'react';
 
 import Projects from './Projects/Projects';
 
-import s from './MainPage.scss';
+import './MainPage.scss';
 
 export default function MainPage() {
   return (
