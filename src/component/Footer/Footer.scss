@@ -1,0 +1,24 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 20px;
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  &__right {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .footer {
+    grid-template-columns: unset;
+    padding: 40px 10px;
+
+    &__right {
+      text-align: left;
+    }
+  }
+}

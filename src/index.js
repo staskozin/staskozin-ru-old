@@ -11,6 +11,7 @@ import 'normalize.css';
 import './index.scss';
 
 import Header from './component/Header/Header';
+import Footer from './component/Footer/Footer';
 import MainPage from './component/MainPage/MainPage';
 import ThingsPage from './component/ThingsPage/ThingsPage';
 
@@ -26,6 +27,7 @@ const App = () => {
             <MainPage />
           </Route>
         </Switch>
+        <Footer />
     </Router>
   )
 };
