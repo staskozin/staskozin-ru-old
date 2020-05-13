@@ -18,24 +18,6 @@ export default [
     "css_class": "vesko"
   },
   {
-    "link": "https://profkoptilnya.ru/constructor",
-    "header": "Конструктор коптилен",
-    "text": "Для интернет-магазина «ПрофКоптильня»",
-    "tags": [
-      "сайт"
-    ],
-    "css_class": "profkoptilnya-constructor"
-  },
-  {
-    "link": "https://stolpodnos.ru/constructor",
-    "header": "Конструктор столиков",
-    "text": "Для интернет-магазина «СтолПоднос»",
-    "tags": [
-      "сайт"
-    ],
-    "css_class": "stolpodnos-constructor"
-  },
-  {
     "link": "https://strong-style.ru",
     "header": "Strong Style",
     "text": "Интернет-магазин оловянных солдатиков",
@@ -55,6 +37,15 @@ export default [
     ]
   },
   {
+    "link": "https://stolpodnos.ru/constructor",
+    "header": "Конструктор столиков",
+    "text": "Для интернет-магазина «СтолПоднос»",
+    "tags": [
+      "сайт"
+    ],
+    "css_class": "stolpodnos-constructor"
+  },
+  {
     "link": "https://stolpodnos.ru",
     "header": "СтолПоднос",
     "text": "Интернет-магазин столиков для\u00A0завтрака в\u00A0постель",
@@ -71,6 +62,15 @@ export default [
       "сайт"
     ],
     "css_class": "elkichristmas"
+  },
+  {
+    "link": "https://profkoptilnya.ru/constructor",
+    "header": "Конструктор коптилен",
+    "text": "Для интернет-магазина «ПрофКоптильня»",
+    "tags": [
+      "сайт"
+    ],
+    "css_class": "profkoptilnya-constructor"
   },
   {
     "link": "https://profkoptilnya.ru",
