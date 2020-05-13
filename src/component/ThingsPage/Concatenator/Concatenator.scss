@@ -1,0 +1,26 @@
+.concatenator {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+
+  .things-textarea_concatenator-input {
+    height: 262px;
+  }
+
+  .things-textarea_concatenator-output {
+    height: 494px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .concatenator {
+    padding: 0 10px;
+    grid-template-columns: unset;
+    column-gap: unset;
+  
+    .things-textarea_concatenator-output {
+      height: 262px;
+    }
+  }
+}
