@@ -1,7 +1,7 @@
 .things-label {
   font-size: 32px;
   letter-spacing: 0.7px;
-  margin: 5px 0 15px;
+  margin: 15px 0 5px;
 }
 
 .things-textarea {
@@ -19,15 +19,30 @@
   }
 }
 
+.things-input-text {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #85807E;
+  padding: 15px;
+
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 @media screen and (max-width: 652px) {
   .things-label {
     font-size: 24px;
     letter-spacing: 0.5px;
-    margin: 5px 0 8px;
+    margin: 8px 0 5px;
   }
 
   .things-textarea {
-    font-size: 14px;
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  .things-input-text {
+    font-size: 100%;
     padding: 10px;
   }
 }
