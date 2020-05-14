@@ -11,7 +11,7 @@ export default function List(props) {
       <div className="things-list">
       <Link className="things-list__item" to={`${path}/rice-calculator`}>
           <img className="things-list__img" src="/img/things/rice.svg" alt="Калькулятор ингредиентов для риса" />
-          <span className="things-list__text">Калькулятор ингредиентов для&nbsp;риса</span>
+          <span className="things-list__text">Калькулятор ингредиентов для&nbsp;варки риса</span>
         </Link>
         <Link className="things-list__item" to={`${path}/transliterator`}>
           <img className="things-list__img" src="/img/things/mechanics.svg" alt="Транслитератор" />
