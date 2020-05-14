@@ -26,11 +26,13 @@ export default function RiceCalculator() {
                 value={rice}
                 onChange={(e) => {
                   const rice = e.target.value;
-                  if (isNaN(Number(rice))) {
-                    rice = null;
+                  if (rice == 0) {
+                    setRice(null);
+                    setOther(calculateProportions(0));
+                  } else {
+                    setRice(Math.abs(rice));
+                    setOther(calculateProportions(rice));
                   }
-                  setRice(rice);
-                  setOther(calculateProportions(rice));
                 }}
                 onBlur={(e) => {
                   const rice = e.target.value < 1 ? 500 : e.target.value;
@@ -73,9 +75,8 @@ export default function RiceCalculator() {
 }
 
 function calculateProportions(rice) {
-  const proportion = rice / 500;
+  const proportion = Math.abs(rice / 500);
   return {
-    rice: Math.floor(rice),
     water: Math.floor(550 * proportion),
     vinegar: Math.floor(55 * proportion),
     sugar: Math.floor(45 * proportion),
