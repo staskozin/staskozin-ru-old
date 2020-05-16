@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import './RiceCalculator.scss';
+import YouTube from '../../misc/YouTube/YouTube';
 
 export default function RiceCalculator() {
   const [rice, setRice] = useState(500);
@@ -69,6 +70,7 @@ export default function RiceCalculator() {
             </p>
           </div>
         </div>
+        <YouTube youtubeId={'Cht4NvRUz-s'} />
       </div>
     </>
   )
