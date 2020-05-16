@@ -134,6 +134,33 @@
   background-repeat: no-repeat;
 }
 
+.square_salon-kartin {
+  background-image: url(/img/squares/salon-kartin.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
+}
+
+.square_vesko {
+  background-image: url(/img/squares/vesko.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
+}
+
+.square_strong-style {
+  background-image: url(/img/squares/strong-style.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
+}
+
 .square_profkoptilnya-constructor {
   background-image: url(/img/squares/profkoptilnya-constructor.jpg);
   @include square-background-settings();
@@ -142,6 +169,38 @@
 .square_stolpodnos-constructor {
   background-image: url(/img/squares/stolpodnos-constructor.jpg);
   @include square-background-settings();
+}
+
+.square_stolpodnos {
+  background-image: url(/img/squares/stolpodnos.jpg);
+  @include square-background-settings();
+}
+
+.square_elkichristmas {
+  background-image: url(/img/squares/elkichristmas.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
+}
+
+.square_profkoptilnya {
+  background-image: url(/img/squares/profkoptilnya.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
+}
+
+.square_profshampur {
+  background-image: url(/img/squares/profshampur.jpg);
+  @include square-background-settings();
+
+  .square__header {
+    color: white;
+  }
 }
 
 .square_iphones {
