@@ -22,11 +22,9 @@ export default function Square(props) {
           <ReactFitText compressor={2.5}>
             <ul className="square__tags">
               {
-                tags.map(tag => {
-                  return (
-                    <li className="square__tag" key={css_class + tag}>#{tag}</li>
-                  )
-                })
+                tags
+                  ? tags.map(tag => <li className="square__tag" key={css_class + tag}>#{tag}</li>)
+                  : <li className="square__tag"><a href={link}>{link.replace(/^(https?:|)\/\//, '')}</a></li>
               }
             </ul>
           </ReactFitText>
