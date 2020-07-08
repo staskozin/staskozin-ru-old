@@ -218,6 +218,24 @@
   @include square-background-settings();
 }
 
+.square_gradremont {
+  background-image: url(/img/squares/gradremont.jpg);
+  @include square-background-settings();
+  .square__header {
+    color: white;
+  }
+}
+
+.square_trek {
+  background-image: url(/img/squares/trek.jpg);
+  @include square-background-settings();
+}
+
+.square_3dphoto {
+  background-image: url(/img/squares/3dphoto.jpg);
+  @include square-background-settings();
+}
+
 // Адаптивность
 @media screen and (max-width: 1024px) {
   .square__footer {

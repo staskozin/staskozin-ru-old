@@ -15,17 +15,7 @@ export default [
     "link": "https://strong-style.ru",
     "header": "Strong Style",
     "text": "Интернет-магазин оловянных солдатиков",
-    "css_class": "strong-style",
-    "anim_images": [
-      {
-        "class": "strong-style_bubble",
-        "image": "/_img/squares/strong-style_bubble.png"
-      },
-      {
-        "class": "strong-style_tear",
-        "image": "/_img/squares/strong-style_tear.png"
-      }
-    ]
+    "css_class": "strong-style"
   },
   {
     "link": "https://stolpodnos.ru/constructor",
@@ -83,5 +73,26 @@ export default [
       "граф"
     ],
     "css_class": "elkichristmas-logo"
+  },
+  {
+    "link": "https://gradremont.staskozin.ru",
+    "header": "Град ремонт",
+    "text": "Сайт компании",
+    "css_class": "gradremont",
+    "archived": true
+  },
+  {
+    "link": "https://trek.staskozin.ru",
+    "header": "Техремэксперт",
+    "text": "Сайт компании",
+    "css_class": "trek",
+    "archived": true
+  },
+  {
+    "link": "https://3dphoto.staskozin.ru",
+    "header": "Превращение",
+    "text": "Сайт фотостудии",
+    "css_class": "3dphoto",
+    "archived": true
   }
 ]
