@@ -80,6 +80,7 @@
 
   .square {
     z-index: 0;
+    overflow: hidden;
     @include square-transition();
 
     &__background,
@@ -89,6 +90,7 @@
 
     &__background_hover {
       opacity: 0;
+      transform: rotate(0);
     }
 
     &__footer {
