@@ -8,10 +8,6 @@
     height: 100%;
   }
 
-  &__background_hover {
-    opacity: 0;
-  }
-
   &__content {
     display: flex;
     justify-content: space-between;
@@ -89,6 +85,10 @@
     &__background,
     &__content {
       @include square-transition();
+    }
+
+    &__background_hover {
+      opacity: 0;
     }
 
     &__footer {
