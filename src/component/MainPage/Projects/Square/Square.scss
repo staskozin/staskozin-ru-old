@@ -79,7 +79,7 @@
 // Анимации на десктопах
 @media screen and (min-width: 1025px) {
   @mixin square-transition {
-    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
   }
 
   .square {
