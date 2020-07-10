@@ -128,16 +128,16 @@
       transform: scale(1.05) translateX(-2.4%);
     }
   }
-}
 
-@media screen and (min-width: 1201px) {
-  // Чтобы крайние квадраты отъезжали от краев экрана
-  .square:nth-child(4n-3):hover {
-    transform: scale(1.05) translateX(2.4%);
-  }
+  @media screen and (min-width: 1201px) {
+    // Чтобы крайние квадраты отъезжали от краев экрана
+    .square:nth-child(4n-3):hover {
+      transform: scale(1.05) translateX(2.4%);
+    }
 
-  .square:nth-child(4n):hover {
-    transform: scale(1.05) translateX(-2.4%);
+    .square:nth-child(4n):hover {
+      transform: scale(1.05) translateX(-2.4%);
+    }
   }
 }
 
