@@ -7,6 +7,8 @@ import {
   Link
 } from 'react-router-dom';
 
+import { WebpMachine } from 'webp-hero';
+
 import 'normalize.css';
 import './index.scss';
 
@@ -18,16 +20,16 @@ import ThingsPage from './component/ThingsPage/ThingsPage';
 const App = () => {
   return (
     <Router>
-        <Header />
-        <Switch>
-          <Route path="/things">
-            <ThingsPage />
-          </Route>
-          <Route path="/">
-            <MainPage />
-          </Route>
-        </Switch>
-        <Footer />
+      <Header />
+      <Switch>
+        <Route path="/things">
+          <ThingsPage />
+        </Route>
+        <Route path="/">
+          <MainPage />
+        </Route>
+      </Switch>
+      <Footer />
     </Router>
   )
 };
@@ -36,3 +38,6 @@ ReactDOM.render(
   <App />,
   document.getElementById('app')
 );
+
+const webpMachine = new WebpMachine();
+webpMachine.polyfillDocument();
