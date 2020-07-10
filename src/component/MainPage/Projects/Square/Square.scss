@@ -2,6 +2,16 @@
   position: relative;
   width: 100%;
 
+  &__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__background_hover {
+    opacity: 0;
+  }
+
   &__content {
     display: flex;
     justify-content: space-between;
@@ -58,6 +68,7 @@
   &__tag:last-child {
     padding-right: 0;
   }
+
   &:after {
     content: "";
     display: block;
@@ -65,16 +76,17 @@
   }
 }
 
-@mixin square-transition {
-  transition: all 0.2s ease-in;
-}
-
 // Анимации на десктопах
 @media screen and (min-width: 1025px) {
+  @mixin square-transition {
+    transition: all 0.2s ease-in;
+  }
+
   .square {
     z-index: 0;
     @include square-transition();
 
+    &__background,
     &__content {
       @include square-transition();
     }
@@ -91,15 +103,19 @@
       border-radius: 10px;
       z-index: 10;
 
+      .square__background {
+        border-radius: 10px;
+      }
+
+      .square__background_hover {
+        opacity: 1;
+      }
+
       .square__footer {
         opacity: 1;
         border-radius: 0 0 10px 10px;
       }
     }
-  }
-
-  .square_iphones:hover {
-    background-image: url(/img/squares/iphones-2.jpg);
   }
 
   @media screen and (max-width: 1200px) {
@@ -125,125 +141,10 @@
   }
 }
 
-// Картинки в квадратах
-@mixin square-background-settings {
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.square_salon-kartin {
-  background-image: url(/img/squares/salon-kartin.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_vesko {
-  background-image: url(/img/squares/vesko.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_strong-style {
-  background-image: url(/img/squares/strong-style.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_profkoptilnya-constructor {
-  background-image: url(/img/squares/profkoptilnya-constructor.jpg);
-  @include square-background-settings();
-}
-
-.square_stolpodnos-constructor {
-  background-image: url(/img/squares/stolpodnos-constructor.jpg);
-  @include square-background-settings();
-}
-
-.square_stolpodnos {
-  background-image: url(/img/squares/stolpodnos.jpg);
-  @include square-background-settings();
-}
-
-.square_elkichristmas {
-  background-image: url(/img/squares/elkichristmas.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_profkoptilnya {
-  background-image: url(/img/squares/profkoptilnya.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_profshampur {
-  background-image: url(/img/squares/profshampur.jpg);
-  @include square-background-settings();
-
-  .square__header {
-    color: white;
-  }
-}
-
-.square_iphones {
-  background-image: url(/img/squares/iphones.jpg);
-  @include square-background-settings();
-  background-size: 171%;
-  background-position-y: 21%;
-}
-
-.square_strong-style-logo {
-  background-image: url(/img/squares/strong-style-logo.jpg);
-  @include square-background-settings();
-}
-
-.square_elkichristmas-logo {
-  background-image: url(/img/squares/elkichristmas-logo.jpg);
-  @include square-background-settings();
-}
-
-.square_gradremont {
-  background-image: url(/img/squares/gradremont.jpg);
-  @include square-background-settings();
-  .square__header {
-    color: white;
-  }
-}
-
-.square_trek {
-  background-image: url(/img/squares/trek.jpg);
-  @include square-background-settings();
-}
-
-.square_3dphoto {
-  background-image: url(/img/squares/3dphoto.jpg);
-  @include square-background-settings();
-}
-
 // Адаптивность
 @media screen and (max-width: 1024px) {
-  .square__footer {
+  .square__background_hover {
     opacity: 1;
-  }
-
-  .square_iphones {
-    background-image: url(/img/squares/iphones-2.jpg);
   }
 }
 
@@ -259,8 +160,15 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .square__footer {
-    opacity: 1;
+// Доп. настройки квадратов
+.square_salon-kartin,
+.square_vesko,
+.square_strong-style,
+.square_elkichristmas,
+.square_profkoptilnya,
+.square_profshampur,
+.square_gradremont {
+  .square__header {
+    color: white;
   }
 }
