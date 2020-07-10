@@ -108,7 +108,7 @@ export default [
     "header": "Превращение",
     "text": "Сайт фотостудии",
     "css_class": "3dphoto",
-    "img": "/img/squares/3dphoto.webp",
+    "video": "/img/squares/3dphoto.mp4",
     "archived": true
   }
 ]

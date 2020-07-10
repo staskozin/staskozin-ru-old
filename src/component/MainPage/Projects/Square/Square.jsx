@@ -4,17 +4,22 @@ import ReactFitText from 'react-fittext-fix';
 import './Square.scss';
 
 export default function Square(props) {
-  const { link, header, text, tags, img, imgHover, css_class } = props.data;
+  const { link, header, text, tags, img, imgHover, video, css_class } = props.data;
   return (
     <div className={`square square_${css_class}`} key={css_class}>
       {
-        img
+        img && !video
           ? <img className="square__background" src={img} alt={header} />
           : null
       }
       {
-        imgHover
+        imgHover && !video
           ? <img className="square__background square__background_hover" src={imgHover} alt={header} />
+          : null
+      }
+      {
+        video
+          ? <video className="square__background" src={video} autoPlay playsInline loop ></video>
           : null
       }
       <div className="square__content">
