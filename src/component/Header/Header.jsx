@@ -10,7 +10,7 @@ export default function Header() {
     <header className="header">
       <div className="logo">
       <NavLink exact={true} to="/" className="logo__link" activeClassName="selected">
-        <img className="img" src="/img/stas-krug.png" alt="Аватарка" />
+        <img className="img" src="/img/stas-krug.webp" alt="Аватарка" />
         <span className="text" >Станислав Козин</span>
       </NavLink>
       </div>
