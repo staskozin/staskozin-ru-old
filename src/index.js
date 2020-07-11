@@ -6,7 +6,6 @@ import {
   Route
 } from 'react-router-dom';
 
-import { WebpMachine } from 'webp-hero';
 
 import 'normalize.css';
 import './index.scss';
@@ -39,6 +38,3 @@ ReactDOM.render(
   <App />,
   document.getElementById('app')
 );
-
-const webpMachine = new WebpMachine();
-webpMachine.polyfillDocument();
