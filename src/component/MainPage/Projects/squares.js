@@ -4,63 +4,63 @@ export default [
     "header": "Салон картин",
     "text": "Интернет-магазин картин",
     "css_class": "salon-kartin",
-    "img": "/img/squares/salon-kartin.webp"
+    "img": "/img/squares/salon-kartin.jpg"
   },
   {
     "link": "https://vesko-electro.ru",
     "header": "Вэско-электро",
     "text": "Интернет-магазин промышленных светильников",
     "css_class": "vesko",
-    "img": "/img/squares/vesko.webp"
+    "img": "/img/squares/vesko.jpg"
   },
   {
     "link": "https://strong-style.ru",
     "header": "Strong Style",
     "text": "Интернет-магазин оловянных солдатиков",
     "css_class": "strong-style",
-    "img": "/img/squares/strong-style.webp"
+    "img": "/img/squares/strong-style.jpg"
   },
   {
     "link": "https://stolpodnos.ru/constructor",
     "header": "Конструктор столиков",
     "text": "Для интернет-магазина «СтолПоднос»",
     "css_class": "stolpodnos-constructor",
-    "img": "/img/squares/stolpodnos-constructor.webp"
+    "img": "/img/squares/stolpodnos-constructor.jpg"
   },
   {
     "link": "https://stolpodnos.ru",
     "header": "СтолПоднос",
     "text": "Интернет-магазин столиков для\u00A0завтрака в\u00A0постель",
     "css_class": "stolpodnos",
-    "img": "/img/squares/stolpodnos.webp"
+    "img": "/img/squares/stolpodnos.jpg"
   },
   {
     "link": "https://elkichristmas.ru",
     "header": "ElkiChristmas",
     "text": "Интернет-магазин искусственных ёлок и\u00A0ёлочных игрушек",
     "css_class": "elkichristmas",
-    "img": "/img/squares/elkichristmas.webp"
+    "img": "/img/squares/elkichristmas.jpg"
   },
   {
     "link": "https://profkoptilnya.ru/constructor",
     "header": "Конструктор коптилен",
     "text": "Для интернет-магазина «ПрофКоптильня»",
     "css_class": "profkoptilnya-constructor",
-    "img": "/img/squares/profkoptilnya-constructor.webp"
+    "img": "/img/squares/profkoptilnya-constructor.jpg"
   },
   {
     "link": "https://profkoptilnya.ru",
     "header": "ПрофКоптильня",
     "text": "Интернет-магазин коптилен",
     "css_class": "profkoptilnya",
-    "img": "/img/squares/profkoptilnya.webp"
+    "img": "/img/squares/profkoptilnya.jpg"
   },
   {
     "link": "https://profshampur.ru",
     "header": "ПрофШампур",
     "text": "Интернет-магазин шампуров",
     "css_class": "profshampur",
-    "img": "/img/squares/profshampur.webp"
+    "img": "/img/squares/profshampur.jpg"
   },
   {
     "link": "/files/iphones-poster.pdf",
@@ -69,8 +69,8 @@ export default [
       "граф"
     ],
     "css_class": "iphones",
-    "img": "/img/squares/iphones.webp",
-    "imgHover": "/img/squares/iphones-2.webp"
+    "img": "/img/squares/iphones.jpg",
+    "imgHover": "/img/squares/iphones-2.jpg"
   },
   {
     "text": "Логотип интернет-магазина оловянных солдатиков",
@@ -78,7 +78,7 @@ export default [
       "граф"
     ],
     "css_class": "strong-style-logo",
-    "img": "/img/squares/strong-style-logo.webp"
+    "img": "/img/squares/strong-style-logo.jpg"
   },
   {
     "text": "Логотип интернет-магазина искусственных ёлок и\u00A0ёлочных игрушек",
@@ -86,14 +86,14 @@ export default [
       "граф"
     ],
     "css_class": "elkichristmas-logo",
-    "img": "/img/squares/elkichristmas-logo.webp"
+    "img": "/img/squares/elkichristmas-logo.jpg"
   },
   {
     "link": "https://gradremont.staskozin.ru",
     "header": "Град ремонт",
     "text": "Сайт компании",
     "css_class": "gradremont",
-    "img": "/img/squares/gradremont.webp",
+    "img": "/img/squares/gradremont.jpg",
     "archived": true
   },
   {
@@ -101,7 +101,7 @@ export default [
     "header": "Техремэксперт",
     "text": "Сайт компании",
     "css_class": "trek",
-    "img": "/img/squares/trek.webp",
+    "img": "/img/squares/trek.jpg",
     "archived": true
   },
   {
