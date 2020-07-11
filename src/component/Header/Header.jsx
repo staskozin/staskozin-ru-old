@@ -3,6 +3,8 @@ import {
   NavLink
 } from 'react-router-dom';
 
+import ImgWebp from '../misc/ImgWebp';
+
 import './Header.scss';
 
 export default function Header() {
@@ -10,7 +12,7 @@ export default function Header() {
     <header className="header">
       <div className="logo">
       <NavLink exact={true} to="/" className="logo__link" activeClassName="selected">
-        <img className="img" src="/img/stas-krug.webp" alt="Аватарка" />
+        <ImgWebp className="img" src="/img/stas-krug.png" alt="Аватарка" />
         <span className="text" >Станислав Козин</span>
       </NavLink>
       </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactFitText from 'react-fittext-fix';
 
+import ImgWebp from '../../../misc/ImgWebp';
+
 import './Square.scss';
 
 export default function Square(props) {
@@ -9,12 +11,12 @@ export default function Square(props) {
     <div className={`square square_${css_class}`} key={css_class}>
       {
         img && !video
-          ? <img className="square__background" src={img} alt={header} />
+          ? <ImgWebp className="square__background" src={img} alt={header} />
           : null
       }
       {
         imgHover && !video
-          ? <img className="square__background square__background_hover" src={imgHover} alt={header} />
+          ? <ImgWebp className="square__background square__background_hover" src={imgHover} alt={header} />
           : null
       }
       {
