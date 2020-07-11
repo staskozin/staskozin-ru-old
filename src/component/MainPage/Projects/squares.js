@@ -63,6 +63,7 @@ export default [
     "img": "/img/squares/profshampur.webp"
   },
   {
+    "link": "/files/iphones-poster.pdf",
     "text": "Плакат с размерами айфонов",
     "tags": [
       "граф"
