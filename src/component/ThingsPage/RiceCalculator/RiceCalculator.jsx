@@ -79,9 +79,9 @@ export default function RiceCalculator() {
 function calculateProportions(rice) {
   const proportion = Math.abs(rice / 500);
   return {
-    water: Math.floor(550 * proportion),
-    vinegar: Math.floor(55 * proportion),
-    sugar: Math.floor(45 * proportion),
-    salt: Math.floor(5 * proportion)
+    water: Math.round(550 * proportion),
+    vinegar: Math.round(55 * proportion),
+    sugar: Math.round(45 * proportion),
+    salt: Math.round(5 * proportion)
   }
 }
