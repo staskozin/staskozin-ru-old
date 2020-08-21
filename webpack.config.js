@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devServer: {
@@ -47,5 +48,10 @@ module.exports = {
         use: ["file-loader"]
       }
     ]
-  }
+  },
+  plugins: [new CopyPlugin({
+    patterns: [
+      { from: 'static', to: '.' }
+    ]
+  })]
 };
