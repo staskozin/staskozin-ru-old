@@ -14,7 +14,7 @@
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-fittext-fix": "^1.2.0",
+    "react-fittext": "https://github.com/staskozin/react-fittext.git",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "supports-webp": "^2.0.1"

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactFitText from 'react-fittext-fix';
+import ReactFitText from 'react-fittext';
 
 import ImgWebp from '../../../misc/ImgWebp';
 
