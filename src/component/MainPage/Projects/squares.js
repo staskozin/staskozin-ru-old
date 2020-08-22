@@ -1,6 +1,8 @@
 export default [
   {
     "link": "https://salon-kartin.ru",
+    "link_text": "salon-kartin.ru",
+    "tags": ["OpenCart"],
     "header": "Салон картин",
     "text": "Интернет-магазин картин",
     "css_class": "salon-kartin",
@@ -8,6 +10,8 @@ export default [
   },
   {
     "link": "https://vesko-electro.ru",
+    "link_text": "vesko-electro.ru",
+    "tags": ["OpenCart"],
     "header": "Вэско-электро",
     "text": "Интернет-магазин промышленных светильников",
     "css_class": "vesko",
@@ -15,6 +19,8 @@ export default [
   },
   {
     "link": "https://strong-style.ru",
+    "link_text": "strong-style.ru",
+    "tags": ["OpenCart"],
     "header": "Strong Style",
     "text": "Интернет-магазин оловянных солдатиков",
     "css_class": "strong-style",
@@ -22,6 +28,8 @@ export default [
   },
   {
     "link": "https://stolpodnos.ru/constructor",
+    "link_text": "stolpodnos.ru/constructor",
+    "tags": ["React", "Redux"],
     "header": "Конструктор столиков",
     "text": "Для интернет-магазина «СтолПоднос»",
     "css_class": "stolpodnos-constructor",
@@ -29,6 +37,8 @@ export default [
   },
   {
     "link": "https://stolpodnos.ru",
+    "link_text": "stolpodnos.ru",
+    "tags": ["OpenCart"],
     "header": "СтолПоднос",
     "text": "Интернет-магазин столиков для\u00A0завтрака в\u00A0постель",
     "css_class": "stolpodnos",
@@ -36,6 +46,8 @@ export default [
   },
   {
     "link": "https://elkichristmas.ru",
+    "link_text": "elkichristmas.ru",
+    "tags": ["OpenCart"],
     "header": "ElkiChristmas",
     "text": "Интернет-магазин искусственных ёлок и\u00A0ёлочных игрушек",
     "css_class": "elkichristmas",
@@ -43,6 +55,8 @@ export default [
   },
   {
     "link": "https://profkoptilnya.ru/constructor",
+    "link_text": "profkoptilnya.ru/constructor",
+    "tags": ["React", "Redux"],
     "header": "Конструктор коптилен",
     "text": "Для интернет-магазина «ПрофКоптильня»",
     "css_class": "profkoptilnya-constructor",
@@ -50,6 +64,8 @@ export default [
   },
   {
     "link": "https://profkoptilnya.ru",
+    "link_text": "profkoptilnya.ru",
+    "tags": ["OpenCart"],
     "header": "ПрофКоптильня",
     "text": "Интернет-магазин коптилен",
     "css_class": "profkoptilnya",
@@ -57,6 +73,8 @@ export default [
   },
   {
     "link": "https://profshampur.ru",
+    "link_text": "profshampur.ru",
+    "tags": ["OpenCart"],
     "header": "ПрофШампур",
     "text": "Интернет-магазин шампуров",
     "css_class": "profshampur",
@@ -64,6 +82,7 @@ export default [
   },
   {
     "link": "/files/iphones-poster.pdf",
+    "link_text": "Скачать .pdf",
     "text": "Плакат с размерами айфонов",
     "tags": [
       "граф"
@@ -90,6 +109,8 @@ export default [
   },
   {
     "link": "https://gradremont.staskozin.ru",
+    "link_text": "gradremont.staskozin.ru",
+    "tags": ["HTML/CSS", "JS", "PHP"],
     "header": "Град ремонт",
     "text": "Сайт компании",
     "css_class": "gradremont",
@@ -98,6 +119,8 @@ export default [
   },
   {
     "link": "https://trek.staskozin.ru",
+    "link_text": "trek.staskozin.ru",
+    "tags": ["HTML/CSS"],
     "header": "Техремэксперт",
     "text": "Сайт компании",
     "css_class": "trek",
@@ -106,6 +129,8 @@ export default [
   },
   {
     "link": "https://3dphoto.staskozin.ru",
+    "link_text": "3dphoto.staskozin.ru",
+    "tags": ["HTML/CSS", "JS", "PHP"],
     "header": "Превращение",
     "text": "Сайт фотостудии",
     "css_class": "3dphoto",

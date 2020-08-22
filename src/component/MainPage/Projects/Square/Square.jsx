@@ -6,7 +6,7 @@ import ImgWebp from '../../../misc/ImgWebp';
 import './Square.scss';
 
 export default function Square(props) {
-  const { link, header, text, tags, img, imgHover, video, css_class } = props.data;
+  const { link, link_text, header, text, tags, img, imgHover, video, css_class } = props.data;
   return (
     <div className={`square square_${css_class}`} key={css_class}>
       {
@@ -37,13 +37,20 @@ export default function Square(props) {
             <p className="square__text">{text}</p>
           </ReactFitText>
           <ReactFitText compressor={2.5}>
-            <ul className="square__tags">
-              {
-                tags
-                  ? tags.map(tag => <li className="square__tag" key={css_class + tag}>#{tag}</li>)
-                  : <li className="square__tag"><a href={link}>{link.replace(/^(https?:|)\/\//, '')}</a></li>
-              }
-            </ul>
+            <div className="square__tags-wrap">
+              <ul className="square__tags">
+                {
+                  link &&
+                    <li className="square__tag square__tag_link"><a href={link}>{link_text}</a></li>
+                }
+              </ul>
+              <ul className="square__tags">
+                {
+                  tags &&
+                    tags.map(tag => <li className="square__tag" key={css_class + tag}>#{tag}</li>)
+                }
+              </ul>
+            </div>
           </ReactFitText>
         </div>
       </div>
