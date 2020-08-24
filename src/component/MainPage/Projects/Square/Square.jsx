@@ -21,7 +21,7 @@ export default function Square(props) {
       }
       {
         video
-          ? <video className="square__background" src={video} autoPlay playsInline loop ></video>
+          ? <video className="square__background" src={video} autoPlay playsInline loop muted ></video>
           : null
       }
       <div className="square__content">
