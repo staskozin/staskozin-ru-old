@@ -6,7 +6,7 @@ import ImgWebp from '../../../misc/ImgWebp';
 import './Square.scss';
 
 export default function Square(props) {
-  const { link, link_text, header, text, tags, img, imgHover, video, css_class } = props.data;
+  const { link, link_text, header, text, tags, img, img_hover, video, css_class } = props.data;
   return (
     <div className={`square square_${css_class}`} key={css_class}>
       {
@@ -15,8 +15,8 @@ export default function Square(props) {
           : null
       }
       {
-        imgHover && !video
-          ? <ImgWebp className="square__background square__background_hover" src={imgHover} alt={header} />
+        img_hover && !video
+          ? <ImgWebp className="square__background square__background_hover" src={img_hover} alt={header} />
           : null
       }
       {
