@@ -2,7 +2,7 @@
 
 https://staskozin.ru
 
-Написан на React + React Router. Сборка через Webpack.
+Написан на React + React Router. Сборка через Webpack. Стили на SASS.
 
 ## Команды
 
