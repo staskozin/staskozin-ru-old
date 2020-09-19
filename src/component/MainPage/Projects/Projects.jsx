@@ -7,7 +7,7 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('https://staskozin.ru/api/get_projects.php')
+    fetch('https://api.staskozin.ru/project')
       .then(r => r.json())
       .then(r => setProjects(r));
   }, []);
